@@ -1,0 +1,13 @@
+package com.app.tester;
+import com.apps.fruits.*;
+import java.util.*;
+public class FruitBasket {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to fruit basket ");
+		System.out.println("Please enetr size of basket ");
+		Scanner sc=new Scanner(System.in);
+		Fruit[] basket=new Fruit[sc.nextInt()];
+	}
+
+}

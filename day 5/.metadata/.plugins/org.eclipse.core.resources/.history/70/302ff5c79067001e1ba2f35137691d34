@@ -1,0 +1,18 @@
+package com.app.tester;
+import com.apps.fruits.*;
+import java.util.*;
+public class FruitBasket {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to fruit basket ");
+		System.out.println("Please enetr size of basket ");
+		Scanner sc=new Scanner(System.in);
+		Fruit[] basket=new Fruit[sc.nextInt()];
+		
+		System.out.println("please click below option \n 1.Add Mango \n 2.Add Orange \n 3.Add Apple \n 4.Display name of all fruits \n 5.Display name,colour,weight,taste of all fresh fruits \n 6.Mark a fruit in basket as stale \n7.mark all sour fruits stale \n 8.Invoke fruit specific functa \n9.Exit");
+		
+		
+		
+	}
+
+}

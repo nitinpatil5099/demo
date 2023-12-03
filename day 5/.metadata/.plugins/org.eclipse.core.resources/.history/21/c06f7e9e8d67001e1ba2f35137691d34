@@ -1,0 +1,9 @@
+package com.apps.fruits;
+
+public class Apple extends Fruit {
+	public void pulp()
+	{
+		System.out.println("name is "+name+"colour is"+colour+"weight is "+weight);
+	}
+s
+}
